@@ -11,6 +11,7 @@ body {
 header {
   background-color: #1f2937;
   color: #f9faf8;
+  padding-bottom: 100px;
 }
 
 .flex-header{
@@ -21,6 +22,21 @@ header {
 .flex-nav {
   display: flex;
   gap: 10px;
+}
+
+.nav-link {
+  color:#f9faf8;
+  text-decoration: none;
+}
+
+.flex-main-upper {
+  display: flex;
+  justify-content: space-between;
+  /* margin-bottom: 100px; */
+}
+
+.flex-main-upper-item {
+  max-width: 50%;
 }
 
 .flex-main-upper-item h1 {
@@ -38,16 +54,18 @@ header {
   margin-top:0;
 }
 
-.nav-link {
-  color:#f9faf8
+.sign-up-one {
+  background-color: #3882f6;
+  width: 80px;
+  padding: 2px;
+  margin: 5px;
 }
 
-.flex-main-upper {
-  display: flex;
-}
-
-img {
+.grey-bg {
   background-color: #808080;
+  width: 100%;
+  height: 40%;
+  margin-top: 30%;
 }
 
 .quote {
