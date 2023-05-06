@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+
+}
+
+.page-container {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #1f2937;
+  color: #f9faf8;
+}
+
+.flex-header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-nav {
+  display: flex;
+  gap: 10px;
+}
+
+.flex-main-upper-item h1 {
+  font-size: 48px;
+  font-weight: 800;
+  max-width: 50%;
+  margin-bottom: 0;
+}
+.flex-main-upper-item p {
+  max-width: 85%;
+}
+
+.flex-header h3 {
+  font-size: 24px;
+  margin-top:0;
+}
+
+.nav-link {
+  color:#f9faf8
+}
+
+.flex-main-upper {
+  display: flex;
+}
+
+img {
+  background-color: #808080;
+}
+
+.quote {
+  background-color: #e5e7eb;
+}
+
