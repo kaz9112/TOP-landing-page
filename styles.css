@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
 
@@ -9,7 +10,7 @@ body {
 }
 
 /* HEADER */
-/* TOP HEADER */
+/* TOP HEADER NAV*/
 
 header {
   background-color: #1f2937;
@@ -21,7 +22,7 @@ header {
 .flex-header{
   display: flex;
   justify-content: space-between;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
 }
 
 .flex-header h3 {
@@ -45,7 +46,7 @@ header {
 }
 
 
-/* MAIN UPPER */
+/* HEADER MAIN UPPER */
 
 .flex-main-upper {
   display: flex;
@@ -65,6 +66,7 @@ header {
 .flex-main-upper-title p {
   max-width: 85%;
   font-size: 1.2em;
+  color:#e5e7eb
 }
 
 .sign-butt {
@@ -103,7 +105,34 @@ header {
   text-align: center;
 }
 
-/* MAIN LOWER */
+/* MAIN */
+
+.main-header-text {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 800;
+  color: #1f2937;
+  margin-bottom: 80px;
+}
+
+.four-box-items {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: nowrap;
+}
+
+.main-flex-icon {
+  max-width: 180px;
+  max-height: 180px;
+  border-radius: 15px;
+  border: 0.2em solid #b3b3b3;
+}
+
+.main-flex-paragraph {
+  text-align: center;
+  color: #797979;
+}
 
 .quote {
   background-color: #e5e7eb;
