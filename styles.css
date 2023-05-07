@@ -147,18 +147,18 @@ header {
   background-color: #e5e7eb;
 }
 
-.quote {
+.quote-container {
   padding: 40px;
 }
 
-.quote p {
+.quote {
   font-size: 36px;
   color: #1f2937;
   margin: 5px auto;
 }
 
 .by-who {
-  font-size: 20px !important;
+  font-size: 20px;
   text-align: right;
 }
 
