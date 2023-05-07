@@ -61,17 +61,31 @@ header {
   font-size: 1.2em;
 }
 
-.sign-up-one {
+/* .sign-up-one {
   background-color: #3882f6;
   width: 140px;
   padding: 2px;
   margin: 5px;
   border-radius: 10px;
+} */
+
+.sign-butt {
+  background-color: #3882f6;
+  border: none;
+  width: 140px;
+  height: 40px;
+  margin: 5px;
+  border-radius: 10px;
+  color: #f9faf8;
+  font-size: 1.1em;
+  font-weight: 600;
+}
+.sign-butt:hover {
+  background-color: #74a9ff;
 }
 
-.sign-up-one h3 {
-  text-align: center;
-  margin: 5px;
+.sign-butt:active {
+  background-color: #f7f7f7;
 }
 
 .flex-main-upper-image {
