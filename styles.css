@@ -21,6 +21,7 @@ header {
 .flex-header{
   display: flex;
   justify-content: space-between;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .flex-header h3 {
@@ -30,12 +31,17 @@ header {
 
 .flex-nav {
   display: flex;
-  gap: 10px;
+  gap: 20px;
 }
 
 .nav-link {
-  color:#f9faf8;
+  color:#d6d9df;
   text-decoration: none;
+  font-size: 1em;
+}
+
+.nav-link:hover {
+  color: #ffffff;
 }
 
 
@@ -60,14 +66,6 @@ header {
   max-width: 85%;
   font-size: 1.2em;
 }
-
-/* .sign-up-one {
-  background-color: #3882f6;
-  width: 140px;
-  padding: 2px;
-  margin: 5px;
-  border-radius: 10px;
-} */
 
 .sign-butt {
   background-color: #3882f6;
