@@ -46,24 +46,24 @@ header {
 }
 
 
-/* HEADER MAIN UPPER */
+/* HEADER UPPER */
 
-.flex-main-upper {
+.flex-header-upper {
   display: flex;
   justify-content: space-between;
 }
 
-.flex-main-upper-title {
+.flex-header-upper-title {
   max-width: 50%;
 }
 
-.flex-main-upper-title h1 {
+.flex-header-upper-title h1 {
   font-size: 48px;
   font-weight: 800;
   max-width: 75%;
   margin-bottom: 0;
 }
-.flex-main-upper-title p {
+.flex-header-upper-title p {
   max-width: 85%;
   font-size: 1.2em;
   color:#e5e7eb
@@ -105,7 +105,7 @@ header {
   text-align: center;
 }
 
-/* MAIN */
+/* MAIN UPPER*/
 
 .main-header-text {
   text-align: center;
@@ -120,6 +120,12 @@ header {
   justify-content: center;
   gap: 50px;
   flex-wrap: nowrap;
+  align-items: center;
+  margin-bottom: 145px;
+}
+
+.four-box-items div {
+  width: 190px;
 }
 
 .main-flex-icon {
@@ -134,7 +140,25 @@ header {
   color: #797979;
 }
 
-.quote {
+
+/* MAIN MIDDLE */
+
+.main-middle {
   background-color: #e5e7eb;
+}
+
+.quote {
+  padding: 40px;
+}
+
+.quote p {
+  font-size: 36px;
+  color: #1f2937;
+  margin: 5px auto;
+}
+
+.by-who {
+  font-size: 20px !important;
+  text-align: right;
 }
 
