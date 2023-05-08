@@ -38,7 +38,8 @@ header {
 .nav-link {
   color:#d6d9df;
   text-decoration: none;
-  font-size: 1em;
+  font-size: 1rem;
+  flex: 1;
 }
 
 .nav-link:hover {
@@ -115,29 +116,42 @@ header {
   margin-bottom: 80px;
 }
 
-.four-box-items {
-  display: flex;
-  justify-content: center;
-  gap: 50px;
-  flex-wrap: nowrap;
+.flex-main {
+  display:flex;
+  flex-direction: column;
   align-items: center;
-  margin-bottom: 145px;
 }
 
-.four-box-items div {
-  width: 190px;
+.four-box-items {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+  flex-wrap: nowrap;
+  margin-bottom: 145px;
+  max-width: 850px;
+}
+
+.four-box-items > div {
+  flex: 1;
+  display: flex;
+  flex-direction: column;  
+  align-items: center;
 }
 
 .main-flex-icon {
-  max-width: 180px;
-  max-height: 180px;
+  max-width: 90%;
+  max-height: 90%;
   border-radius: 15px;
   border: 0.2em solid #b3b3b3;
+  flex: 1;
 }
 
 .main-flex-paragraph {
+  max-width: 90%;
+  max-height: 90%;
   text-align: center;
   color: #797979;
+  flex: 1;
 }
 
 
