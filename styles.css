@@ -1,0 +1,29 @@
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #1f2937;
+    height: 100px;
+    width: 100px;
+}
+
+.upper-mid {
+    background-color: #3882f6;
+    height: 100px;
+    width: 100px;
+}
+
+.lower-mid {
+    background-color: #e5e7eb;
+    height: 100px;
+    width: 100px;
+}
+
+.footer{
+    background-color: #1f2937;
+    height: 100px;
+    width: 100px;
+}
