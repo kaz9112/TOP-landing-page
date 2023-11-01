@@ -10,7 +10,7 @@
 }
 
 .container {
-    margin: auto 400px;
+    margin: auto 200px;
 }
 
 .header-color {
@@ -28,16 +28,17 @@
 
 .nav {
     display: flex;
-    justify-content: space-between;
+    /* gap: 15px; */
     color: #e5e7eb;
 }
 
-.upper-mid {
-    
+.nav p {
+    padding: 0 10px;
 }
 
-.lower-mid {
-    background-color: #e5e7eb;
+
+.hero {
+    display: flex;
 }
 
 .hero h1 {
@@ -49,4 +50,23 @@
 .hero p {
     color: #e5e7eB;
     font-size: 18px;
+}
+
+.image-hero {
+    color:#e5e7eB;
+    background-color: #5f5f5f;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+
+
+
+.upper-mid {
+    
+}
+
+.lower-mid {
+    background-color: #e5e7eb;
 }
