@@ -53,6 +53,9 @@
 }
 
 .image-hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     color:#e5e7eB;
     background-color: #5f5f5f;
     text-align: center;
