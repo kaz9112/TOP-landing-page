@@ -91,9 +91,22 @@
 
 
 /* upper mid */
-.upper-mid {
-    
+.upper-mid .container {
+    padding: 50px 50px;
+    padding-bottom: 100px;
 }
+
+.upper-mid-image {
+    display: flex;
+    flex-direction: row;
+}
+
+.upper-mid h1 {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+
 
 .lower-mid {
     background-color: #e5e7eb;
