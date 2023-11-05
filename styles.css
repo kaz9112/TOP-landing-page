@@ -10,9 +10,13 @@
 }
 
 .container {
-    margin: auto 200px;
+    margin: auto auto;
+    max-width: 1200px;
 }
 
+
+
+/* Header */
 .header-color {
     background-color: #1f2937;
 }
@@ -39,6 +43,12 @@
 
 .hero {
     display: flex;
+    padding: 100px 0;
+    justify-content: space-between;
+}
+
+.hero div {
+    max-width: 500px;
 }
 
 .hero h1 {
@@ -54,6 +64,8 @@
 
 .image-hero {
     display: flex;
+    width: 500px;
+    height: 250px;
     justify-content: space-around;
     align-items: center;
     color:#e5e7eB;
@@ -64,7 +76,7 @@
 
 
 
-
+/* upper mid */
 .upper-mid {
     
 }
