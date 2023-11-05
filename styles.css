@@ -132,4 +132,24 @@
 
 .lower-mid {
     background-color: #e5e7eb;
+    padding: 100px 500px;
+}
+
+.lower-mid .container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.main-quote p {
+    padding-top: 50px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937 ;
+}
+
+.name-quote h4 {
+    text-align: right;
+    font-size: 1.5rem;
 }
