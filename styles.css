@@ -132,13 +132,14 @@
 
 .lower-mid {
     background-color: #e5e7eb;
-    padding: 100px 500px;
+    padding: 100px auto;
 }
 
 .lower-mid .container {
     display: flex;
     flex-direction: column;
     gap: 15px;
+    max-width: 920px;
 }
 
 .main-quote p {
