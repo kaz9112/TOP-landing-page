@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .main-container {
@@ -22,6 +23,7 @@
 }
 
 .nav-header {
+    margin-top: 20px;
     display: flex;
     justify-content: space-between;
 }
@@ -67,7 +69,7 @@
 
 .image-hero {
     display: flex;
-    width: 500px;
+    width: 600px;
     height: 250px;
     justify-content: space-around;
     align-items: center;
@@ -78,9 +80,9 @@
 
 .header-signup {
     height: 40px;
-    width: 120px;
+    width: 150px;
     font-size: 1.1rem;
-    font-weight: 700;
+    font-weight: 600;
     border-radius: 10px;
     background-color: #3882f6;
     color: #f9faf8;
