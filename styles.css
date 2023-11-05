@@ -16,7 +16,6 @@
 }
 
 
-
 /* Header */
 .header-color {
     background-color: #1f2937;
@@ -112,11 +111,12 @@
     align-items: center;
     justify-content: space-evenly;
     gap: 10px;
+
 }
 
 .upper-mid-image img {
-    width: 180px;
-    height: 180px;
+    width: 170px;
+    height: 170px;
     border: 5px solid;
     border-radius: 20px;
     border-color: #3882f6;
@@ -124,8 +124,11 @@
 
 .upper-mid-image p {
     text-align: center;
+    padding: 0 47px;
 }
 
+
+/* lower mid */
 
 .lower-mid {
     background-color: #e5e7eb;
