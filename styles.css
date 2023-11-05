@@ -48,7 +48,10 @@
 }
 
 .hero div {
+    display: flex;
+    flex-direction: column;
     max-width: 500px;
+    gap: 10px;
 }
 
 .hero h1 {
@@ -73,7 +76,16 @@
     text-align: center;
 }
 
-
+.header-signup {
+    height: 40px;
+    width: 120px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    border-radius: 10px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: 0;
+}
 
 
 /* upper mid */
