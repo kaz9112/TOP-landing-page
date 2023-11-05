@@ -153,3 +153,34 @@
     text-align: right;
     font-size: 1.5rem;
 }
+
+/* lower */
+
+.blue-box {
+    display: flex;
+    width: 1000px;
+    margin: 200px auto;
+    padding: 50px 120px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.blue-box h3 {
+    color: #f9faf8;
+}
+
+.blue-box p {
+    color: #e5e7eb;
+}
+
+.lower-signup {
+    background-color: #3881f600;
+    border-radius: 10px;
+    border: 2px solid;
+    color: #f9faf8;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0 30px;
+
+}
