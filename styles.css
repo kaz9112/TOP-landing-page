@@ -17,8 +17,9 @@
 
 
 /* Header */
-.header-color {
+.header {
     background-color: #1f2937;
+    padding-bottom: 80px;
 }
 
 .nav-header {
@@ -40,7 +41,6 @@
 .nav p {
     padding: 0 10px;
 }
-
 
 .hero {
     display: flex;
